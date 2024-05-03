@@ -18,11 +18,11 @@ export default function Homepage() {
 
             <div className="home-page-bg">
                 <header className="header">
-                    <img src="/assets/images/netflix.svg" className="netflix_logo" alt="logo" />
+                    <img src="./assets/images/netflix.svg" className="netflix_logo" alt="logo" />
                     <button type="submit" class="signup-button">Sign Up</button>
                 </header>
                 <div className="homg-first-bg">
-                    <img src="/assets/images/bg-img.jpg" className="home-bg-image" alt="" />
+                    <img src="./assets/images/bg-img.jpg" className="home-bg-image" alt="" />
                     <div className="bg-opacity"></div>
                 </div>
 
@@ -53,10 +53,10 @@ export default function Homepage() {
                         <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
                     </div>
                     <div className="second-section-img">
-                        <img src="/assets/images/tv.png" alt="" />
+                        <img src="./assets/images/tv.png" alt="" />
                         <div class="video-container">
                 <video controls autoplay loop>
-                    <source src="/assets/images/Netflix-intro.mp4" type="video/mp4" />
+                    <source src="./assets/images/Netflix-intro.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -75,7 +75,7 @@ export default function Homepage() {
                         <p>Save your favorites easily and always have something to watch.</p>
                     </div>
                     <div className="third-section-img">
-                        <img src="/assets/images/mobile (210).png" alt="" />
+                        <img src="./assets/images/mobile.png" alt="" />
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@ export default function Homepage() {
                         <p>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</p>
                     </div>
                     <div className="fifth-section-img">
-                        <img src="/assets/images/picture12.png" alt="" />
+                        <img src="./assets/images/picture12.png" alt="" />
                     </div>
                 </div>
             </div>
